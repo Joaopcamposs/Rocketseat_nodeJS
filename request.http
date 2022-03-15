@@ -2,8 +2,8 @@ POST  http://localhost:4002/products
 Content-Type: application/json
 
 {
-    "name": "wewewe azul",
-    "price": 24
+    "name": "dasda asdsa azul",
+    "price": 44
 }
 ###
 
@@ -13,12 +13,12 @@ GET http://localhost:4002/products
 GET http://localhost:4002/products/acbc992e-72a1-48bc-b195-e699ca6cdecd
 ###
 
-PUT  http://localhost:4002/products/364870e4-4c29-41bd-9d0d-3e00a826dd21
+PUT  http://localhost:4002/products/c58e6daf-7dfe-4453-822c-8e1e4c6a16e5
 Content-Type: application/json
 
 {
     "name": "casasdas azul",
-    "price": 15
+    "price": 99
 }
 ###
 
