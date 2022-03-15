@@ -2,12 +2,24 @@ POST  http://localhost:4002/products
 Content-Type: application/json
 
 {
-    "name": "caneta azul",
-    "price": 3
+    "name": "wewewe azul",
+    "price": 24
 }
 ###
 
 GET http://localhost:4002/products
 ###
 
-GET http://localhost:4002/products
+GET http://localhost:4002/products/acbc992e-72a1-48bc-b195-e699ca6cdecd
+###
+
+PUT  http://localhost:4002/products/364870e4-4c29-41bd-9d0d-3e00a826dd21
+Content-Type: application/json
+
+{
+    "name": "casasdas azul",
+    "price": 15
+}
+###
+
+DELETE http://localhost:4002/products/0c71e47f-a86e-460f-bdf8-6e82cae60d1f
