@@ -5,3 +5,9 @@ Content-Type: application/json
     "name": "caneta azul",
     "price": 3
 }
+###
+
+GET http://localhost:4002/products
+###
+
+GET http://localhost:4002/products
